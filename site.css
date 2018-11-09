@@ -1,0 +1,126 @@
+
+body {
+    margin:0px;
+    font-size:16px;
+}
+
+.all-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.content {
+    margin:20px;
+    padding:20px;
+    flex: 1 0 auto;
+}
+
+.menu {
+    margin:0;
+    padding:0;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: block;
+    color: white;
+    padding-left: 20px;
+    cursor:default;
+}
+
+p a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding-left: 14px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column3 {
+    float: left;
+    width: 33.3%;
+    margin: 0px;
+}
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 0px;
+}
+
+.column1 {
+    margin: auto;
+    width: 50%;
+    padding: 0px;
+}
+
+.columnspace {
+    padding: 15px;
+}
+
+.row {
+    width: 100%;
+    position:relative;
+    display:block;
+
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.message {
+    position:relative;
+    display:block;
+    padding:10px;
+    background-color:red;
+    color:white;
+    cursor:default;
+}
+
+.spaceline {
+   padding-top:25px;
+}
+
+.spaceline50 {
+   padding-top:50px;
+}
+
+.spaceline100 {
+   padding-top:100px;
+}
