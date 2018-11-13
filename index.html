@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="shortcut icon" href="config/favicon.png">
+		<link rel="shortcut icon" href="img/favicon.png">
 	</head>
 	<link rel="stylesheet" href="site.css">
 <body>
@@ -17,13 +17,21 @@
 <header>
 <div class="menu">
 	<ul class="sidenav">
-		<li><a class="active" href="https://github.com/pphome2">pphome2</a></li>
-		<li><a href="index.html">Bemutatkozó lap</a></li>
+		<li><a class="active" href="index.html">pphome2</a></li>
+		<li><a href="#bem">Bemutatkozás</a></li>
+		<li><a href="#eler">Elérhetőség</a></li>
+		<li><a href="#tev">Tevékenység</a></li>
 		<li style="float:right;top:5px;"><div class="search_icon"></div></li>
 	</ul>
 </div>
 
 </header>
+
+<div class="gt-gototop" onclick="topFunction()" id="gt-gototop" title="">
+<div class="gt-gototop-icon">&#8593;</div>
+</div>
+
+
 
 
 <div class="content">
@@ -36,17 +44,18 @@
 
 
 <center>
-	<img src=back.jpg style='width:60%'>
+	<img src=img/back.jpg style='width:60%'>
 </center>
 
 <div class=spaceline50></div>
 
+<a name="bem">
 <div class=row>
 
 <div class=column3>
 <div class=columnspace>
 	<center>
-		<img src=world.png style='width:30%'><br />
+		<img src=img/world.png style='width:30%'><br />
 		<b>Weboldalak</b>
 	</center>
 	<p>
@@ -62,7 +71,7 @@
 <div class=column3>
 <div class=columnspace>
 	<center>
-		<img src=molecular.png style='width:30%'><br />
+		<img src=img/molecular.png style='width:30%'><br />
 		<b>Alkalmazás fejlesztés</b>
 	</center>
 	<p>
@@ -78,7 +87,7 @@
 <div class=column3>
 <div class=columnspace>
 	<center>
-		<img src=community.png style='width:30%'><br />
+		<img src=img/community.png style='width:30%'><br />
 		<b>Rendszer üzemeltetés</b>
 	</center>
 	<p>
@@ -103,7 +112,7 @@
 <div class=column3>
 <div class=columnspace>
 	<center>
-		<img src=programming.png style='width:30%'>
+		<img src=img/programming.png style='width:30%'>
 	</center>
 </div>
 </div>
@@ -141,15 +150,20 @@
 
 
 <div class=spaceline100></div>
-<div class=spaceline100></div>
 
+<a name="eler">
+
+<div class=spaceline50></div>
+<center><img src=img/connect.png width=40%></center>
+<div class=spaceline50></div>
+<div class=spaceline50></div>
 
 <div class=row>
 
 <div class=column2>
 <div class=columnspace>
 	<center>
-		<img src=email.png style='width:20%'>
+		<img src=img/email.png style='width:20%'>
 	</center>
 </div>
 </div>
@@ -157,8 +171,9 @@
 <div class=column2>
 <div class=columnspace>
 	Elérhetőségek:
+<div class=spaceline50></div>
 	<p>
-	<a href="mailto:pxphxomex2@gxmxaixl.xcom" onmouseover="this.href=this.href.replace(/x/g,'');">
+	<a href="mailto:pxp3hxom3ex2@g3xmx3aix3l.x3c3om" onmouseover="this.href=this.href.replace(/x/g,'');this.href=this.href.replace(/3/g,'');">
 	<div class=btn>
 	E-mail
 	</div>
@@ -172,9 +187,15 @@
 
 
 <div class=spaceline100></div>
+
 <div class=spaceline100></div>
 
 
+<a name="tev">
+
+<div class=spaceline></div>
+<center><img src=img/prod.jpg width=60%></center>
+<div class=spaceline50></div>
 
 <div class=row>
 <div class=column3>
@@ -187,13 +208,11 @@
 
 </div>
 
-<div class=spaceline50></div>
-
 <div class=row>
 <div class=column3>
 <div class=columnspace>
 	<center>
-		<img src=creative.png style='width:30%'>
+		<img src=img/creative.png style='width:30%'>
 	</center>
 
 </div>
@@ -232,6 +251,7 @@
 
 
 <div class=spaceline50></div>
+<div class=spaceline50></div>
 
 
 <footer>
@@ -246,6 +266,31 @@
 </footer>
 
 </div>
+
+
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("gt-gototop").style.display = "block";
+    } else {
+        document.getElementById("gt-gototop").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+</script>
+
+
+
 
 </body>
 </html>
