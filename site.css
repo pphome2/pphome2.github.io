@@ -124,3 +124,35 @@ li.dropdown {
 .spaceline100 {
    padding-top:100px;
 }
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  text-align:center;
+  background-color: green;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn a{
+  text-decoration:none;
+  color: gray;
+}
+
+.btn a:link {
+    text-decoration: none;
+}
+
+.btn a:visited {
+    text-decoration: none;
+}
+
+.btn a:hover {
+    text-decoration: none;
+}
+
+.btn a:active {
+    text-decoration: none;
+}
