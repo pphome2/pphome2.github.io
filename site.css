@@ -17,6 +17,13 @@ body {
     flex: 1 0 auto;
 }
 
+
+.cimg {
+    border-radius:15px;
+    box-shadow: 0 0 25px black;
+}
+
+
 .menu {
     margin:0;
     padding:0;
