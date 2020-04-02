@@ -4,10 +4,34 @@ body {
     font-size:16px;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
 .all-page {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    rdisplay: flex;
+    rflex-direction: column;
+    rmin-height: 100vh;
 }
 
 
@@ -99,7 +123,6 @@ li.dropdown {
 
 .row {
     width: 100%;
-    position:relative;
     display:block;
 
 }
