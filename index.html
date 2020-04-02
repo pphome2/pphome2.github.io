@@ -265,7 +265,13 @@
 
 <div class="menu">
 <ul class="sidenav">
-<li>© 2018. <a target='_blank' href=https://github.com/pphome2>pphome2</a></li>
+<li>© <span id=date></span>
+<script>
+	var d = new Date();
+	var n = d.getFullYear();
+	document.getElementById("date").innerHTML = n;
+</script>
+. <a target='_blank' href=https://github.com/pphome2>pphome2</a></li>
 </ul>
 </div>
 
